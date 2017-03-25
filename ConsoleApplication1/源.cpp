@@ -17,6 +17,8 @@ int main()
 
 	char s[1024];
 
+
+
 	sockaddr_in to = {2};
 	to.sin_addr.S_un.S_addr = inet_addr("172.19.216.88");
 	to.sin_port = htons(55555);
